@@ -1,0 +1,244 @@
+#config_version=6
+
+#Can name these to match left, right, center, or however you want. The switch name defined here
+#Will be used in any modes where the switches are activated, etc.
+
+switches:
+
+#3208 Board - Switches
+
+# Plunger
+
+  s_plunger:
+    number: 3208-18
+    
+  s_optoshifter:
+    number: "0804-6"
+    type: 'NC'
+    
+#Trough
+
+  s_trough_ball_jam:
+    number: 3208-17
+    type: 'NC'
+
+  s_trough_ball_1:
+    number: 3208-0
+    type: 'NC'
+
+  s_trough_ball_2:
+    number: 3208-1
+
+  s_trough_ball_3:
+    number: 3208-2
+
+  s_trough_ball_4:
+    number: 3208-3
+
+  s_trough_ball_5:
+    number: 3208-4
+
+  s_trough_ball_6:
+    number: 3208-5
+    
+  s_trough_ball_7:
+    number: 3208-6
+    
+  s_trough_ball_8:
+    number: 3208-7      
+
+#Slings & Pops
+
+  s_right_sling:
+    number: 3208-9
+
+  s_left_sling:
+    number: 3208-15
+    
+  s_pop_bumper:
+    number: 1616-6 
+    
+  s_low_pop_bumper:
+    number: 1616-7  
+    
+#Lanes
+
+  s_right_inlane:
+    number: 3208-10
+
+  s_right_outlane:
+    number: 3208-11
+
+  s_left_inlane:
+    number: 3208-14
+
+  s_left_outlane:
+    number: 3208-13
+    
+  s_uturn:
+    number: "0804-1"
+      
+  s_glane:
+    number: "0804-2"
+
+  s_alane:
+    number: "0804-3"
+    
+  s_slane:
+    number: "0804-4"
+    
+  s_chicane:
+    number: "0804-7"
+
+#Flippers
+
+  s_right_flipper:
+    number: cabinet-18
+    tags: flipper_right
+    
+  s_upper_flipper:
+    number: cabinet-17
+    tags: flipper_upper
+    
+  s_left_flipper:
+    number: cabinet-10
+    tags: flipper_left
+
+  s_right_flipper_eos:
+    number: 3208-8
+    
+  s_upper_flipper_eos:
+    number: 3208-19
+    
+  s_left_flipper_eos:
+    number: 3208-12
+    
+#Diverters
+#  s_left_diverter:
+#    number: 3208-12
+
+#  s_right_diverter:
+#    number: cabinet-19
+
+#Kicker VUK Drops
+
+  s_pitstop_vuk:
+    number: 1616-0
+    type: 'NC'
+    
+#  s_left_vuk:
+#    number: 1616-7
+    
+  s_left_kicker:
+    number: 3208-16   
+
+  s_dropt:
+    number: 1616-1
+
+  s_dropi:
+    number: 1616-2
+
+  s_dropr:
+    number: 1616-3
+    
+  s_drope:
+    number: 1616-4
+    
+  s_drops:
+    number: 1616-5
+    
+#Optos
+  s_left_spinner:
+    number: 1616-14
+    type: 'NC'
+    
+  s_right_spinner:
+    number: 1616-15
+    type: 'NC'
+    
+#Ramps
+
+  s_lramp:
+    number: "0804-0"
+    
+  s_rramp:
+    number: "0804-5"
+    
+#Pingine
+  s_cylinder_8:
+    number: 3208-24
+    type: 'NC'
+    
+  s_cylinder_1:
+    number: 3208-25
+    type: 'NC'
+    
+  s_cylinder_2:
+    number: 3208-26
+    type: 'NC'
+    
+  s_cylinder_3:
+    number: 3208-27
+    type: 'NC'
+    
+  s_cylinder_4:
+    number: 3208-28
+    type: 'NC'
+    
+  s_cylinder_5:
+    number: 3208-29
+    type: 'NC'
+    
+  s_cylinder_6:
+    number: 3208-30
+    type: 'NC'
+    
+  s_cylinder_7:
+    number: 3208-31
+    type: 'NC'  
+      
+#OCTANE & CONE 
+
+  s_stando:
+    number: 1616-8
+    
+  s_standc:
+    number: 1616-9
+    
+  s_standt:
+    number: 1616-10
+    
+  s_standa:
+    number: 1616-11
+    
+  s_standn:
+    number: 1616-12
+    
+  s_stande:
+    number: 1616-13
+    
+  s_pope:
+    number: 3208-20
+    
+  s_popn:
+    number: 3208-21
+    
+  s_popo:
+    number: 3208-22
+
+  s_popc:
+    number: 3208-23
+
+#Other Buttons
+
+  s_start:
+    number: cabinet-11
+    tags: start
+
+#  s_launch:
+#    number: cabinet-16
+#    tags: start
+    
+  s_auto_plunger:
+    number: cabinet-16
+    tags: start
